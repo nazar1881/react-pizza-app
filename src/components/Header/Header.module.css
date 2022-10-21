@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 67);
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.linksWrapper {
+    padding-top: 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.links:hover {
+    transition: .4s;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.chooseOrder {
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(0, 0, 67);
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.order {
+    margin-left: 20px;
+    background-color: rgba(0, 255, 26, 0.823);
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.order:hover {
+    transition: .5s;
+    background-color: white;
+    color: rgba(0, 255, 26, 0.823);
+    border: 1px solid rgba(0, 255, 26, 0.823);
+}

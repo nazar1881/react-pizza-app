@@ -1,0 +1,29 @@
+.orderWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 67);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.imgWrapper {
+    max-width: 50%;
+}
+
+.img {
+    max-width: 80%;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.infWrapper {
+    text-align: right;
+    max-width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+
+}
