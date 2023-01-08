@@ -5,6 +5,12 @@
     background-color: rgb(0, 0, 67);
     color: white;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.itemWrapper:hover {
+    transition: .5s;
+    scale: 1.1;
 }
 
 .itemImg {
@@ -26,7 +32,7 @@
 }
 
 .itemBtn {
-    background-color: lightgreen;
+    background-color: rgba(0, 255, 26, 0.823);
     color: white;
     font-size: 18px;
     font-weight: 700;
@@ -40,7 +46,8 @@
 .itemBtn:hover {
     transition: .5s;
     background-color: white;
-    color: lightgreen;
-    border: 2px solid lightgreen;
+    color: rgba(0, 255, 26, 0.823);
+    border: 2px solid rgba(0, 255, 26, 0.823);
     scale: 1.2;
 }
+

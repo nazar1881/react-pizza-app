@@ -27,3 +27,23 @@
     font-weight: 700;
 
 }
+
+.deleteBtn {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    transition: .5s;
+    scale: 1.1;
+}

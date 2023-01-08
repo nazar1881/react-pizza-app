@@ -5,7 +5,7 @@ import s from './Header.module.css'
 
 const Header = () => {
 
-    let orders = useSelector(state => state.orders);
+    let orders = useSelector(state => state.orders.orders);
 
     return (
         <div className={s.header}>
@@ -18,7 +18,7 @@ const Header = () => {
                     <NavLink to='about-us' className={s.links}>Про нас</NavLink>
                     {
                         orders.length != 0
-                        ? <NavLink to='orders' className={s.order}>Замовити</NavLink>
+                        ? <NavLink to='orders' className={s.order}>Замовити<span className={s.ordersCounter}>{orders.length}</span></NavLink>
                         : <span className={s.chooseOrder}>Оберіть замовлення</span>
                     }
                     

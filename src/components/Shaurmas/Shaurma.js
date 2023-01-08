@@ -1,20 +1,46 @@
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import s from "./Shaurma.module.css"
 
-const Shaurma = ({id, name, price, img}) => {
+const Shaurma = ({id, name, price, img, count}) => {
 
     let dispatch = useDispatch();
     let orders = useSelector(state => state.orders);
+    let shaurmas = useSelector(state => state.shaurmas)
 
-    let addOrder = (name, price) => {
-        dispatch({type:"ADD_ITEM", payload:name, price})
+    let addOrder = () => {
+        const item = {
+            id, 
+            name, 
+            price, 
+            img, 
+            count
+        }
+        const findItem = orders.orders.find((i) => i.id == item.id) 
+        
+        if (findItem) {
+            findItem.count ++
+        } else {
+            dispatch({type:"ADD_ITEM", payload: item})
+        }
     }
 
-    let deleteOrder = (order) => {
-        dispatch({type:"DELETE_ITEM", payload:{order}})
-    }
+
+    /*let addOrder = () => {
+        const item = {
+            id, 
+            name, 
+            price, 
+            img, 
+            count
+        }
+       dispatch({type:"ADD_ITEM", payload: item})
+    }*/
+ 
 
     console.log(orders);
+    console.log(count);
+    //console.log(shaurmas);
 
     return (
         <div className={s.itemWrapper}>
@@ -25,7 +51,17 @@ const Shaurma = ({id, name, price, img}) => {
                 <span>Шаурма: {name}</span>
                 <span>Ціна: {price}грн</span>
             </div>
-            <button onClick={() => addOrder({id, name, price, img})} className={s.itemBtn}>В кошик</button>
+            {
+                count > 1
+                ? <div>
+                    <button >Minus</button>
+                    <button>Plus</button>
+                    </div>
+                :<button onClick={() => {
+                    addOrder()
+                }} className={s.itemBtn}>В кошик</button>
+            }
+            
         </div>
     )
 }
