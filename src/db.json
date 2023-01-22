@@ -5,105 +5,225 @@
       "name": "Гавайська",
       "price": 100,
       "img": "https://img.povar.ru/main/94/1c/00/85/shaurma_na_mangale-577820.JPG",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 2,
       "name": "Куряча",
       "price": 80,
       "img": "https://roll-club.kh.ua/wp-content/uploads/2020/06/s-kuricej-sajt.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 3,
       "name": "Цезар",
       "price": 95,
       "img": "https://i.obozrevatel.com/food/recipemain/2020/2/28/shaurma-v-domashnix-usloviyax.jpg?size=636x424",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 4,
       "name": "BBQ",
       "price": 110,
       "img": "https://kurkumashaurma.by/assets/images/products/104/meksikanskaya-1200-dsc-5855.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 5,
       "name": "Вегетаріанська",
       "price": 50,
       "img": "https://img.povar.ru/main/94/0a/a9/6b/vegetarianskaya_shaurma-772065.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 6,
       "name": "Гавайська",
       "price": 100,
       "img": "https://img.povar.ru/main/94/1c/00/85/shaurma_na_mangale-577820.JPG",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 7,
       "name": "Куряча",
       "price": 80,
       "img": "https://roll-club.kh.ua/wp-content/uploads/2020/06/s-kuricej-sajt.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 8,
       "name": "Цезар",
       "price": 95,
       "img": "https://i.obozrevatel.com/food/recipemain/2020/2/28/shaurma-v-domashnix-usloviyax.jpg?size=636x424",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 9,
       "name": "BBQ",
       "price": 110,
       "img": "https://kurkumashaurma.by/assets/images/products/104/meksikanskaya-1200-dsc-5855.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 10,
       "name": "Вегетаріанська",
       "price": 50,
       "img": "https://img.povar.ru/main/94/0a/a9/6b/vegetarianskaya_shaurma-772065.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 11,
       "name": "Гавайська",
       "price": 100,
       "img": "https://img.povar.ru/main/94/1c/00/85/shaurma_na_mangale-577820.JPG",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 12,
       "name": "Куряча",
       "price": 80,
       "img": "https://roll-club.kh.ua/wp-content/uploads/2020/06/s-kuricej-sajt.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 13,
       "name": "Цезар",
       "price": 95,
       "img": "https://i.obozrevatel.com/food/recipemain/2020/2/28/shaurma-v-domashnix-usloviyax.jpg?size=636x424",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 14,
       "name": "BBQ",
       "price": 110,
       "img": "https://kurkumashaurma.by/assets/images/products/104/meksikanskaya-1200-dsc-5855.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
     },
     {
       "id": 15,
       "name": "Вегетаріанська",
       "price": 50,
       "img": "https://img.povar.ru/main/94/0a/a9/6b/vegetarianskaya_shaurma-772065.jpg",
-      "count": 1
+      "count": 1,
+      "description": "Дуже апетитна, смаковита шавуха, яка забезпечить вас купою енергії, білками і жирами, раджу вам її занямкати !!!!!!",
+      "rate": "4.7/5"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 16,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 17,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 18,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 19,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 20,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 21,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 22,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
+    },
+    {
+      "id": 23,
+      "name": "Coca-Cola",
+      "price": 25,
+      "capacity": 0.5,
+      "modification": "Без цукру",
+      "img": "https://www.eventfood.com.ua/wp-content/uploads/2021/04/05.png",
+      "count": 1,
+      "description": "Чудово підійде до шаурми !",
+      "rate": "4.7/5"
     }
   ]
 }

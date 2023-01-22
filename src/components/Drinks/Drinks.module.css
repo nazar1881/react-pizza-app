@@ -50,27 +50,3 @@
     border: 2px solid rgba(0, 255, 26, 0.823);
     scale: 1.2;
 }
-
-.div {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(0, 0, 67);
-    border-radius: 20px;
-    padding: 5px;
-    
-}
-
-.shaurmaDetailsImg {
-    max-width: 90%;
-    border-radius: 20px;
-}
-
-.shaurmaDescription {
-    max-width: 50%;
-}
-
-.descriptionText {
-    font-size: 18px;
-    font-weight: 700;
-}
-

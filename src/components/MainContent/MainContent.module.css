@@ -1,0 +1,90 @@
+.mainContent {
+    border: 3px solid rgb(0, 0, 67);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.mainContentText {
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(0, 0, 67);
+}
+
+.sliderWrapper {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    color: rgb(0, 0, 67);
+}
+
+.sliderItem {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(0, 0, 67);
+}
+
+.sliderStyles {
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.sliderLeftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -55px;
+    font-size: 95px;
+    color: rgb(0, 0, 67);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.sliderLeftArrow:hover {
+    transition: .5s;
+    color: lightgreen;
+    scale: 1.1;
+    left: -65px;
+}
+
+.sliderRightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: -59px;
+    font-size: 95px;
+    color: rgb(0, 0, 67);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.sliderRightArrow:hover {
+    transition: .5s;
+    color: lightgreen;
+    scale: 1.1;
+    right: -65px;
+}
+
+.dotsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.dotStyles {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.dotStyles:hover {
+    transition: .5s;
+    color: lightgreen;
+}
+
+.active {
+    color:  lightgreen;
+}

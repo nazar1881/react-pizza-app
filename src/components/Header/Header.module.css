@@ -64,3 +64,8 @@
     border-radius: 50%;
     color: white;
 }
+
+.mainContentLink {
+    text-decoration: none;
+    color: white;
+}

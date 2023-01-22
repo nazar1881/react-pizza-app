@@ -10,10 +10,13 @@ const Header = () => {
     return (
         <div className={s.header}>
             <div>
-                <h2>Shaurma-Nazhbula</h2>
+                <NavLink to="/" className={s.mainContentLink}>
+                    <h2>Shaurma-Nazhbula</h2>
+                </NavLink>
             </div>
             <div className={s.linksWrapper}>
                     <NavLink to='shaurmas' className={s.links}>Наша шаурма</NavLink>
+                    <NavLink to='drinks' className={s.links}>Наші напої</NavLink>
                     <span className={s.links}>+380962244492</span>
                     <NavLink to='about-us' className={s.links}>Про нас</NavLink>
                     {

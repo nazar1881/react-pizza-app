@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 import s from "./Shaurma.module.css"
 
 const Shaurma = ({id, name, price, img, count}) => {
@@ -45,7 +46,10 @@ const Shaurma = ({id, name, price, img, count}) => {
     return (
         <div className={s.itemWrapper}>
             <div >
+                <NavLink to={`shaurma-details/${id}`}>
                 <img className={s.itemImg} src={img}></img>
+                </NavLink>
+                
             </div>
             <div className={s.itemInformation}>
                 <span>Шаурма: {name}</span>
